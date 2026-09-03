@@ -78,7 +78,9 @@ p{margin:0 0 14px}
 .title{font-weight:600}
 .venue{color:var(--tag); font-weight:600}
 .news .done{color:var(--muted)}
-.news .done .title{font-weight:500; text-decoration:line-through}
+.news .done s{text-decoration:line-through; text-decoration-color:var(--muted)}
+.news .done a{color:var(--muted)}
+.news .done a:hover{color:var(--accent); border-bottom-color:var(--accent)}
 details.more{margin-top:14px}
 details.more summary{cursor:pointer; font-size:.88rem; color:var(--muted); list-style:none}
 details.more summary::-webkit-details-marker{display:none}
@@ -168,10 +170,24 @@ footer{
             <a href="https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.4c00895">[Link]</a></span>
         </li>
 
+        <li class="done">
+          <span class="date">2024 / 07</span>
+          <span><s>I am hiring two research fellows working on AI/ML for
+            <a href="https://smrtr.io/mhMyD">protein design</a> and
+            <a href="https://jobs.smartrecruiters.com/Biogen/744000000971963-research-fellow-machine-learning-small-molecule-drug-design">small molecule drug design</a>
+            at Biogen.</s></span>
+        </li>
+
         <li>
           <span class="date">2024 / 02</span>
           <span>Our paper on pretrained active learning for virtual screening is accepted by <span class="venue">Journal of Chemical Information and Modeling</span>
             <a href="https://pubs.acs.org/doi/10.1021/acs.jcim.3c01938">[Link]</a></span>
+        </li>
+
+        <li class="done">
+          <span class="date">2024 / 02</span>
+          <span><s>I am hiring a research fellow (entry-level PhD graduate) working on AI/ML for drug design at Biogen.
+            <a href="https://jobs.smartrecruiters.com/Biogen/743999969442593-research-fellow-ai-ml-for-drug-design">[Apply link]</a></s></span>
         </li>
 
         <li>
@@ -199,14 +215,6 @@ footer{
             <span class="date">2022 / 04</span>
             <span>Our paper on deep transfer learning for predicting functional variants is accepted by <span class="venue">Bioinformatics</span>
               <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btac214/6564688">[Link]</a></span>
-          </li>
-          <li class="done">
-            <span class="date">2024 / 07</span>
-            <span class="title">Hiring two research fellows on AI/ML for protein design and small molecule drug design at Biogen. (closed)</span>
-          </li>
-          <li class="done">
-            <span class="date">2024 / 02</span>
-            <span class="title">Hiring a research fellow (entry-level PhD graduate) on AI/ML for drug design at Biogen. (closed)</span>
           </li>
         </ul>
       </details>
